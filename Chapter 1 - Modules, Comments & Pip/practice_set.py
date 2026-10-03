@@ -1,10 +1,10 @@
 # ---------- Chapter 1 Practice Set ----------
 
 # Q1: Print the Twinkle Twinkle poem
-print("Twinkle, twinkle, little star,")
-print("How I wonder what you are!")
-print("Up above the world so high,")
-print("Like a diamond in the sky.")
+print('''Twinkle, twinkle, little star,
+How I wonder what you are!
+Up above the world so high,
+Like a diamond in the sky.''')
 
 # Q2: Table of 5 (same thing you will type in the REPL)
 print("\nTable of 5:")
