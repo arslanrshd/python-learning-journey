@@ -41,6 +41,6 @@
 
 # num = int(input("Enter a numbr: "))
 
-# cal = num * num
+# squ = num * num
 
-# print(f"{cal}")
+# print(f"{squ}")
