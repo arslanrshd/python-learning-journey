@@ -8,9 +8,22 @@
 
 # 2. Write a program to accept marks of 6 students and display them in a sorted manner.
 
-student_marks = [int(input("Enter marks of 6 students: "))]
+student_marks = []
 
-print(type(student_marks))
+mark = int(input("Enter the marks of 1 student: "))
+student_marks.append(mark)
+mark = int(input("Enter the marks of 2 student: "))
+student_marks.append(mark)
+mark = int(input("Enter the marks of 3 student: "))
+student_marks.append(mark)
+mark = int(input("Enter the marks of 4 student: "))
+student_marks.append(mark)
+mark = int(input("Enter the marks of 5 student: "))
+student_marks.append(mark)
+mark = int(input("Enter the marks of 6 student: "))
+student_marks.append(mark)
+
+# print(type(student_marks))
 
 student_marks.sort()
 
