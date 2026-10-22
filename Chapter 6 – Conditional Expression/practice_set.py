@@ -16,13 +16,15 @@
 
 # 2. Write a program to find out whether a student has passed or failed if it requires a total of 40% and at least 33% in each subject to pass. Assume 3 subjects and take marks as an input from the user. 
 
-comp = int(input("Enter marks of Computer subject: "))
+computer = int(input("Enter marks of Computer subject: "))
 math = int(input("Enter marks of Math subject: "))
-eng = int(input("Enter marks of English subject: "))
+english = int(input("Enter marks of English subject: "))
 
-pass_marks = (comp + math + eng) / 300 * 100
+# Its your choice to use this formula or use total subject marks divided by 3 to get the average marks. I have used this formula to get the percentage of total marks.
 
-if (pass_marks >= 40 and comp >= 33 and math >= 33 and eng >= 33):
-    print("Yes you are Pass!")
+total_marks = (computer + math + english) / 300 * 100
+
+if (total_marks >= 40 and computer >= 33 and math >= 33 and english >= 33):
+    print(f"You are Passed: {total_marks}")
 else:
-    print("Ohh you are Fail!")
+    print(f"Ohh You Failed, try again next year: {total_marks}")
