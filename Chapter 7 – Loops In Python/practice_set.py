@@ -50,9 +50,63 @@
 
 # num = int(input("Enter a number: "))
 
-i = 1
-total_sum=None
-while(i<=2):
-    total_sum=total_sum+1
-    i=i+1
-print(total_sum)
+# i = 1
+# total_sum=0
+# while(i<=num):
+#     total_sum += i
+#     i=i+1
+# print(total_sum)
+
+
+# 6. Write a program to calculate the factorial of a given number using for loop.
+
+# num = int (input("Enter a number: "))
+# fact = 1
+# for i in range(1,num+1):
+#     fact = fact * i 
+# print(f"The factorial of {num} is {fact}.")
+
+# 7. Write a program to print the following star pattern. 
+#                        * 
+#                       *** 
+#                      ***** for n = 3 
+
+# n = int(input("Enter the number: "))
+
+# for i in range(1,n+1):
+#     print(" " * (n-i),end="")
+#     print("*" * (2*i-1),end="")
+#     print("")
+
+# 8. Write a program to print the following star pattern: 
+#                       * 
+#                       ** 
+#                       ***  for n = 3
+
+# for i in range(1,4):
+#     for j in range(1,4):
+#         if i>=j:
+#             print("*",end="")
+#         else:
+#             print(" ",end="")
+#     print()
+
+# 9. Write a program to print the following star pattern. 
+#                        * * * 
+#                        *   *   for n = 3 
+#                        * * *  
+
+# n=int(input("Enter n value: "))
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if(i==1 or i==n or j==1 or j==n):
+#             print("*",end="")
+#         else:
+#             print(" ",end="")
+#     print()
+
+# 10. Write a program to print multiplication table of n using for loops in reversed order. 
+
+n = int(input("Enter table of: "))
+for i in range(1,11):
+    print(f"{n} x {11-i} = {n*(11-i)}")
