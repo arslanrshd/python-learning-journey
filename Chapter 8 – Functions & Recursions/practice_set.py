@@ -39,3 +39,37 @@
 #     return calculate_sum(n-1) + n
 # num = int(input("Enter a number: "))
 # print(f"The sum of this number is: {calculate_sum(num)}")
+
+# 5. Write a python function to print first n lines of the following pattern:
+  
+                        
+                        # ***    --- for n = 3 
+                        # **               
+                        # *  
+
+# def star_pattern(n):
+#     for i in range(1,n+1):
+#         for j in range(1,n+1):
+#             if i<=n-j+1:
+#                 print("*",end="")
+#             else:
+#                 print(" ",end="")
+#         print()
+
+# star_pattern(3)
+
+# 6. Write a python function which converts inches to cms.
+
+# def inch_to_cm(inches):
+#     cm = inches * 2.54
+#     return cm
+# inches = float(input("Enter a length in inches: "))
+# print(f"{inches} inches is equal to {inch_to_cm(inches)} cm.")
+
+
+# 7. Write a python function to print multiplication table of a given number.
+
+def print_table(n):
+    for i in range(1,11):
+        print(f"{n} x {i} = {n*i}")
+print_table(2)
